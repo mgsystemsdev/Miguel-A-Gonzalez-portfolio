@@ -63,7 +63,7 @@ def create_docx_resume():
     name_run.font.size = Pt(18)
     name_run.bold = True
     
-    header.add_run("\nPlano, TX • 787-367-9843 • mgonzalez869@gmail.com\n")
+    header.add_run("\nPlano, TX • 787-367-9843 • mg.systems.dev@gmail.com\n")
     
     # Add hyperlinks for LinkedIn, Portfolio, GitHub
     linkedin_p = doc.add_paragraph()
@@ -290,7 +290,7 @@ def create_pdf_resume():
     
     # Header
     story.append(Paragraph("Miguel A. Gonzalez Almonte", title_style))
-    story.append(Paragraph("Plano, TX • 787-367-9843 • mgonzalez869@gmail.com", contact_style))
+    story.append(Paragraph("Plano, TX • 787-367-9843 • mg.systems.dev@gmail.com", contact_style))
     story.append(Paragraph('<a href="https://linkedin.com/in/miguel-gonzalez-8a389791" color="blue">LinkedIn</a> • <a href="https://mga210.github.io/DevProfile" color="blue">Portfolio</a> • <a href="https://github.com/mga210" color="blue">GitHub</a>', contact_style))
     
     story.append(Spacer(1, 12))

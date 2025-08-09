@@ -4,7 +4,7 @@ set -euo pipefail
 # ======= EDIT THESE THREE VALUES =======
 NEW_REMOTE="https://github.com/mgsystemsdev/Miguel-A-Gonzalez-portfolio.git"
 GIT_USER_NAME="Miguel A. Gonzalez"
-GIT_USER_EMAIL="mgonzalez869@gmail.com"
+GIT_USER_EMAIL="mg.systems.dev@gmail.com"
 # ======================================
 
 BRANCH="main"

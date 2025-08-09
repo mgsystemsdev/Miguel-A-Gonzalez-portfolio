@@ -8,7 +8,7 @@ echo "🔧 Starting Git fix and relink process for Miguel's Portfolio..."
 # Repository details (pre-configured)
 NEW_REPO_URL="https://github.com/mgsystemsdev/Miguel-A-Gonzalez-portfolio.git"
 GIT_USER_NAME="Miguel A. Gonzalez"
-GIT_USER_EMAIL="mgonzalez869@gmail.com"
+GIT_USER_EMAIL="mg.systems.dev@gmail.com"
 
 # Step 1: Force remove all lock files
 echo "Removing lock files..."

@@ -27,7 +27,7 @@ def create_simple_docx_resume():
     name_run.font.size = Pt(18)
     name_run.bold = True
     
-    contact = doc.add_paragraph("Plano, TX • 787-367-9843 • mgonzalez869@gmail.com")
+    contact = doc.add_paragraph("Plano, TX • 787-367-9843 • mg.systems.dev@gmail.com")
     contact.alignment = WD_ALIGN_PARAGRAPH.CENTER
     contact.paragraph_format.space_after = Pt(6)
     
