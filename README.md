@@ -5,7 +5,7 @@ AI Systems Developer portfolio showcasing projects, skills, and professional exp
 ## 🚀 Live Site
 
 Visit the live portfolio: (https://mgsystemsdev.github.io/Miguel-A-Gonzalez-portfolio/
-)]
+)
 
 ## 📋 Features
 
