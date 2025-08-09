@@ -1,0 +1,1771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Software Developer Portfolio - Showcasing skills, projects, and experience in web development">
+    <meta name="keywords" content="software developer, web developer, portfolio, HTML, CSS, JavaScript">
+    <meta name="author" content="Miguel A. Gonzalez Almonte">
+    <title>Miguel A. Gonzalez Almonte | AI Developer | Software Systems Thinker</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#hero">
+                    <img src="assets/miguel-profile.png" alt="Miguel A. Gonzalez Almonte" class="nav-avatar">
+                    <span>Miguel Gonzalez</span>
+                </a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#hero" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+                <a href="#achievements" class="nav-link">Achievements</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="greeting">Hello, I'm</span>
+                        <span class="name">Miguel A. Gonzalez Almonte</span>
+                        <span class="role">AI Systems Builder · Operational Intelligence</span>
+                    </h1>
+                    <p class="hero-description">
+                        Field-proven systems thinker with deep roots in operations leadership and a forward trajectory in AI engineering. I design intelligent tools using GPT, Python, and modular workflows to streamline processes, enforce lifecycle logic, and improve decision velocity for real-world teams.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                        <a href="#" class="btn btn-outline" onclick="openResumeModal()">
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="https://github.com/mga210" class="social-link" aria-label="GitHub" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/miguel-gonzalez-8a389791" class="social-link" aria-label="LinkedIn" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:mgonzalez869@gmail.com" class="social-link" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-card">
+                        <div class="profile-avatar">
+                            <img src="assets/miguel-profile.png" alt="Miguel A. Gonzalez Almonte">
+                        </div>
+                        <div class="profile-info">
+                            <div class="status">
+                                <span class="status-dot"></span>
+                                Available for work
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know more about my journey and passion</p>
+            </div>
+            <div class="about-content">
+                <!-- Introduction Card -->
+                <div class="about-intro">
+                    <div class="intro-card">
+                        <div class="intro-text">
+                            <h3>Strategic Systems Builder</h3>
+                            <p class="intro-description">
+                                Strategic systems builder with a background in operations leadership and a forward trajectory in applied AI engineering. My work bridges business-critical problems with technical precision — turning process pain points into decision-ready tools.
+                            </p>
+                        </div>
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <div class="stat-number">10+</div>
+                                <div class="stat-label">Years Experience</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">6+</div>
+                                <div class="stat-label">AI Projects Built</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">50%</div>
+                                <div class="stat-label">Process Improvement</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Journey Section -->
+                <div class="about-journey">
+                    <h3 class="section-title-small">My Evolution</h3>
+                    <div class="journey-narrative">
+                        <div class="evolution-story">
+                            <p class="story-intro">
+                                I began in field operations — from Universal Studios to leading service teams in multifamily housing. Those years gave me a deep understanding of how coordination breaks down, and how systems can restore flow.
+                            </p>
+                            
+                            <div class="evolution-path">
+                                <div class="path-step">
+                                    <div class="step-marker">
+                                        <i class="fas fa-table"></i>
+                                    </div>
+                                    <div class="step-content">
+                                        <span class="step-label">Excel & VBA</span>
+                                        <p>Initially, I used Excel and VBA to bring structure to chaos — creating the foundation for systematic process improvement.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="path-connector"></div>
+                                
+                                <div class="path-step">
+                                    <div class="step-marker">
+                                        <i class="fab fa-python"></i>
+                                    </div>
+                                    <div class="step-content">
+                                        <span class="step-label">Python Systems</span>
+                                        <p>That evolved into building automation in Python, ultimately architecting intelligent systems that model real-world logic and enforce accountability.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="path-connector"></div>
+                                
+                                <div class="path-step">
+                                    <div class="step-marker">
+                                        <i class="fas fa-brain"></i>
+                                    </div>
+                                    <div class="step-content">
+                                        <span class="step-label">AI Integration</span>
+                                        <p>Recognizing the power of AI, I transitioned into building GPT-powered agents, GUI applications (Tkinter/PySide6), and full-scale lifecycle automation tools. My most ambitious project — the Digital MakeReady Board (DMRB) — is a solo-developed, production-used Python system that replaces spreadsheets with a fully enforced readiness engine.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Specialties Cards -->
+                <div class="about-specialties">
+                    <h3 class="section-title-small">Core Specialties</h3>
+                    <div class="specialties-grid">
+                        <div class="specialty-card">
+                            <div class="specialty-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <h4>AI & Automation</h4>
+                            <p>I specialize in GPT workflow engineering and modular prompt architecture that transforms business processes into intelligent decision-making systems. My approach combines structured reasoning patterns with AI agents that can validate tasks, enforce business rules, and scaffold complex operational workflows. I build systems that don't just automate—they intelligently adapt to changing requirements while maintaining accountability and traceability.</p>
+                        </div>
+                        <div class="specialty-card">
+                            <div class="specialty-icon">
+                                <i class="fas fa-cogs"></i>
+                            </div>
+                            <h4>Systems Building</h4>
+                            <p>My Python development expertise focuses on creating modular, maintainable systems that solve real operational challenges. Using GUI frameworks like PySide6 and Tkinter, I build desktop applications with intuitive interfaces backed by robust logic engines. I design architectures that separate concerns—keeping business logic independent from presentation layers—ensuring systems can evolve as requirements change while maintaining reliability and performance.</p>
+                        </div>
+                        <div class="specialty-card">
+                            <div class="specialty-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <h4>Operations Intelligence</h4>
+                            <p>Drawing from 8+ years in field operations, I understand how work actually gets done versus how it's supposed to get done. This experience allows me to build data visualization and process automation systems that address real coordination breakdowns. I transform raw operational data into actionable insights using tools like Power BI and Pandas, creating dashboards that don't just show metrics—they drive better decision-making and accountability.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Current Focus Section -->
+                <div class="about-focus">
+                    <h3 class="section-title-small">Current Focus Areas</h3>
+                    <div class="focus-grid">
+                        <div class="focus-card">
+                            <div class="focus-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <h4>Engineering Agent Workflows with GPT-4, LangChain, and Lifecycle Logic</h4>
+                            <p>I'm building intelligent task agents that follow structured reasoning patterns — using LangChain for modular flows, GPT-4 for language processing, and logic layers to enforce business rules. These agents assist with planning, task validation, and system scaffolding across operational domains.</p>
+                        </div>
+                        <div class="focus-card">
+                            <div class="focus-icon">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                            <h4>Prototyping Dashboards and Automation Systems Using Pandas, CMMS Data, and Modular Python Architecture</h4>
+                            <p>My systems transform raw operational data into visual tools that drive clarity and accountability. I use Pandas for lifecycle modeling and analytics, structure workflows based on CMMS (Computerized Maintenance Management System) logic, and separate logic layers for long-term maintainability.</p>
+                        </div>
+                        <div class="focus-card">
+                            <div class="focus-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <h4>Designing and Deploying Web-Based Tools via Replit for Personal Branding and Rapid Testing</h4>
+                            <p>I use Replit to bring my backend logic to life — professionally and accessibly. By blending no-code/low-code design with AI-assisted coding, I build and deploy functional web tools without deep frontend expertise. I manage layout, content, flow, and full-stack deployment, allowing me to validate systems quickly, share working prototypes, and give my internal logic a user-facing presence.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education Section -->
+                <div class="about-education">
+                    <h3 class="section-title-small">Education & Certifications</h3>
+                    <div class="education-grid">
+                        <div class="education-item">
+                            <div class="education-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="education-details">
+                                <h4>Bachelor of Business Administration</h4>
+                                <p>Computer Information Systems (In Progress)</p>
+                                <span class="education-institution">Ana G. Méndez University</span>
+                            </div>
+                        </div>
+                        <div class="education-item">
+                            <div class="education-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="education-details">
+                                <h4>Python for Everybody</h4>
+                                <p>Programming Specialization (Completed)</p>
+                                <span class="education-institution">University of Michigan</span>
+                            </div>
+                        </div>
+                        <div class="education-item">
+                            <div class="education-icon">
+                                <i class="fab fa-google"></i>
+                            </div>
+                            <div class="education-details">
+                                <h4>Project Management Certificate</h4>
+                                <p>Professional Certificate (Completed)</p>
+                                <span class="education-institution">Google via Coursera</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-subtitle">Technologies and tools I work with</p>
+            </div>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3><i class="fas fa-brain"></i> AI & LLM Systems</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-robot"></i>
+                            <span>GPT-4 & LLM APIs</span>
+                            <div class="skill-level">
+                                <div class="skill-bar skill-level-4" style="width: 80%"></div>
+                            </div>
+                            <span class="skill-badge">Proficient</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-link"></i>
+                            <span>LangChain</span>
+                            <div class="skill-level">
+                                <div class="skill-bar skill-level-3" style="width: 60%"></div>
+                            </div>
+                            <span class="skill-badge">Functional</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-edit"></i>
+                            <span>Prompt Engineering</span>
+                            <div class="skill-level">
+                                <div class="skill-bar skill-level-4" style="width: 80%"></div>
+                            </div>
+                            <span class="skill-badge">Proficient</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cogs"></i>
+                            <span>Agent Workflows</span>
+                            <div class="skill-level">
+                                <div class="skill-bar skill-level-3" style="width: 60%"></div>
+                            </div>
+                            <span class="skill-badge">Functional</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3><i class="fab fa-python"></i> Python Development</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-window-maximize"></i>
+                            <span>PySide6 & Tkinter</span>
+                            <div class="skill-level">
+                                <div class="skill-bar skill-level-4" style="width: 80%"></div>
+                            </div>
+                            <span class="skill-badge">Proficient</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cube"></i>
+                            <span>Modular Architecture</span>
+                            <div class="skill-level">
+                                <div class="skill-bar skill-level-3" style="width: 60%"></div>
+                            </div>
+                            <span class="skill-badge">Functional</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-recycle"></i>
+                            <span>Lifecycle Engines</span>
+                            <div class="skill-level">
+                                <div class="skill-bar skill-level-3" style="width: 60%"></div>
+                            </div>
+                            <span class="skill-badge">Functional</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Learning Systems</span>
+                            <div class="skill-level">
+                                <div class="skill-bar skill-level-2" style="width: 40%"></div>
+                            </div>
+                            <span class="skill-badge">Learning</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3><i class="fas fa-chart-bar"></i> Data & Dashboards</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-chart-pie"></i>
+                            <span>Power BI</span>
+                            <div class="skill-level">
+                                <div class="skill-bar skill-level-4" style="width: 80%"></div>
+                            </div>
+                            <span class="skill-badge">Proficient</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Pandas & Analytics</span>
+                            <div class="skill-level">
+                                <div class="skill-bar skill-level-4" style="width: 80%"></div>
+                            </div>
+                            <span class="skill-badge">Proficient</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>CMMS Integration</span>
+                            <div class="skill-level">
+                                <div class="skill-bar skill-level-4" style="width: 80%"></div>
+                            </div>
+                            <span class="skill-badge">Proficient</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-users"></i>
+                            <span>Team Coordination</span>
+                            <div class="skill-level">
+                                <div class="skill-bar skill-level-5" style="width: 100%"></div>
+                            </div>
+                            <span class="skill-badge">Expert</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3><i class="fas fa-sync-alt"></i> Workflow Automation</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-plug"></i>
+                            <span>API Integration</span>
+                            <div class="skill-level">
+                                <div class="skill-bar skill-level-4" style="width: 80%"></div>
+                            </div>
+                            <span class="skill-badge">Proficient</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-route"></i>
+                            <span>NLP Routing</span>
+                            <div class="skill-level">
+                                <div class="skill-bar skill-level-3" style="width: 60%"></div>
+                            </div>
+                            <span class="skill-badge">Functional</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-bolt"></i>
+                            <span>Auto-Triggers</span>
+                            <div class="skill-level">
+                                <div class="skill-bar skill-level-4" style="width: 80%"></div>
+                            </div>
+                            <span class="skill-badge">Proficient</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-project-diagram"></i>
+                            <span>Process Management</span>
+                            <div class="skill-level">
+                                <div class="skill-bar skill-level-5" style="width: 100%"></div>
+                            </div>
+                            <span class="skill-badge">Expert</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3><i class="fas fa-drafting-compass"></i> System Design</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-desktop"></i>
+                            <span>Modular GUI Design</span>
+                            <div class="skill-level">
+                                <div class="skill-bar skill-level-3" style="width: 60%"></div>
+                            </div>
+                            <span class="skill-badge">Functional</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-stream"></i>
+                            <span>Data Pipelines</span>
+                            <div class="skill-level">
+                                <div class="skill-bar skill-level-3" style="width: 60%"></div>
+                            </div>
+                            <span class="skill-badge">Functional</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-sitemap"></i>
+                            <span>Process Optimization Frameworks</span>
+                            <div class="skill-level">
+                                <div class="skill-bar skill-level-4" style="width: 80%"></div>
+                            </div>
+                            <span class="skill-badge">Proficient</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3><i class="fas fa-tools"></i> Ops Foundations</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-file-excel"></i>
+                            <span>Excel & VBA</span>
+                            <div class="skill-level">
+                                <div class="skill-bar skill-level-5" style="width: 100%"></div>
+                            </div>
+                            <span class="skill-badge">Expert</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-clipboard-list"></i>
+                            <span>Notion / Custom CMS</span>
+                            <div class="skill-level">
+                                <div class="skill-bar skill-level-3" style="width: 60%"></div>
+                            </div>
+                            <span class="skill-badge">Functional</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-network-wired"></i>
+                            <span>Service Coordination Tools</span>
+                            <div class="skill-level">
+                                <div class="skill-bar skill-level-4" style="width: 80%"></div>
+                            </div>
+                            <span class="skill-badge">Proficient</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3><i class="fas fa-globe"></i> No-Code / Low-Code Web Deployment</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-rocket"></i>
+                            <span>Replit Design & Deployment</span>
+                            <div class="skill-level">
+                                <div class="skill-bar skill-level-5" style="width: 100%"></div>
+                            </div>
+                            <span class="skill-badge">Expert</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-paint-brush"></i>
+                            <span>Layout & Usability Architecture</span>
+                            <div class="skill-level">
+                                <div class="skill-bar skill-level-4" style="width: 80%"></div>
+                            </div>
+                            <span class="skill-badge">Proficient</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-plug"></i>
+                            <span>Tool Integration (Formspree, Netlify)</span>
+                            <div class="skill-level">
+                                <div class="skill-bar skill-level-4" style="width: 80%"></div>
+                            </div>
+                            <span class="skill-badge">Proficient</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cubes"></i>
+                            <span>Component Remixing & Assembly</span>
+                            <div class="skill-level">
+                                <div class="skill-bar skill-level-4" style="width: 80%"></div>
+                            </div>
+                            <span class="skill-badge">Proficient</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-users"></i>
+                            <span>UX-Focused Page Building</span>
+                            <div class="skill-level">
+                                <div class="skill-bar skill-level-4" style="width: 80%"></div>
+                            </div>
+                            <span class="skill-badge">Proficient</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3><i class="fas fa-code-branch"></i> DevOps & Deployment</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git / Version Control</span>
+                            <div class="skill-level">
+                                <div class="skill-bar skill-level-3" style="width: 60%"></div>
+                            </div>
+                            <span class="skill-badge">Functional</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-server"></i>
+                            <span>Local-first Deployment</span>
+                            <div class="skill-level">
+                                <div class="skill-bar skill-level-3" style="width: 60%"></div>
+                            </div>
+                            <span class="skill-badge">Functional</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>File-based Data Storage (SQLite)</span>
+                            <div class="skill-level">
+                                <div class="skill-bar skill-level-3" style="width: 60%"></div>
+                            </div>
+                            <span class="skill-badge">Functional</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">A showcase of my recent work and contributions</p>
+            </div>
+            <!-- Featured Project -->
+            <div class="featured-project">
+                <div class="project-category-header">
+                    <div class="category-icon">⭐</div>
+                    <h3>Featured Project</h3>
+                    <div class="category-line"></div>
+                </div>
+                
+                <article class="project-card featured">
+                    <div class="project-image">
+                        <img src="assets/dmrb-login.png" alt="Digital MakeReady Board (DMRB) - Production System" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">MakeReady Digital Board (DMRB)</h3>
+                        <p class="project-description">
+                            A digital command center that replaces messy spreadsheets with real-time apartment turnover tracking. Features role-based access, smart task scheduling, and automated readiness calculations. Used daily by property teams to reduce unit turnover from 13-20 days to 7 days.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Task Automation</span>
+                            <span class="tech-tag">Workflow Design</span>
+                            <span class="tech-tag">Process Optimization</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="project-btn primary" onclick="openProjectModal(this.closest('.project-card'))">
+                                <i class="fas fa-info-circle"></i> View Details
+                            </button>
+                            <button class="project-btn secondary" onclick="openScreenshotGallery('DMRB')">
+                                <i class="fas fa-images"></i> View Screenshots
+                            </button>
+                            <button class="project-btn secondary" onclick="showNotification('Source code available on request!', 'info')">
+                                <i class="fab fa-github"></i> GitHub
+                            </button>
+                        </div>
+                        <div class="project-details" style="display: none;">
+                            <div class="detailed-description">
+                                <h4>What DMRB Does</h4>
+                                <p>DMRB is your digital command center for apartment turnovers — replacing messy spreadsheets with a real-time, always-correct board that tells you what needs doing, who's doing it, if anything's stuck, and when a unit is truly ready.</p>
+                                
+                                <h4>❤️ CORE DIALOGS (Lifeblood of the system)</h4>
+                                <p>Each dialog triggers system mutations and lifecycle orchestration:</p>
+                                <ul>
+                                    <li><strong>➕ Add Unit Dialog (The Heartbeat):</strong> Creates lifecycle state from user input, injects task templates into unit_lifecycle and unit_tasks, emits unit_created(payload) — system-wide sync trigger. Source: dialog_add_unit.py → add_unit_dialog</li>
+                                    <li><strong>📥 Import Units (The Mass Valve):</strong> Batch unit creation from .xlsx, deduplicates, applies templates, injects state. Source: dialog_import.py → unit_import_dialog</li>
+                                    <li><strong>➕ Add Task (The Rhythm Engine):</strong> Defines task templates, offsets, Final Walk constraints, drives all unit task sequencing. Source: dialog_add_task.py → add_task_dialog</li>
+                                    <li><strong>⚙ Manage Dropdown (The Blood Chemistry):</strong> Manages roles, statuses, and logic-bound labels, lives in lookup.db and controls validation across views. Source: dialog_lookup.py → Manage_dropdown_dialog</li>
+                                </ul>
+                                
+                                <h4>🧠 CORE VIEWS (Memory + Execution Control)</h4>
+                                <p>These views are not just visual — they define system behavior and readiness logic:</p>
+                                <ul>
+                                    <li><strong>📁 Units View (Central Consciousness):</strong> Stores unit lifecycle, readiness %, and task sync. Feeds: dashboards, delay views, task boards. Reacts to task completion events. Source: view_unit.py → unit_view</li>
+                                    <li><strong>⚒ Task Template View (Procedural Memory):</strong> Encodes readiness logic through task categories + offsets. Central to Final Walk logic and delay prediction. Source: view_task_template.py → task_template_view</li>
+                                    <li><strong>🏘 Property/Unit DB View (Long-Term Memory):</strong> Reference for unit structure: square footage, type. Ensures valid template-task injection. Source: view_property_unit_db.py → property_unit_db_view</li>
+                                </ul>
+                                
+                                <h4>Features</h4>
+                                <ul>
+                                    <li><strong>Make Ready Board:</strong> Color-coded unit stages (Scheduled, In Progress, Blocked, Final Walk, Ready) with real-time progress tracking</li>
+                                    <li><strong>Smart Task Scheduling:</strong> Automatically loads correct tasks and schedules them across 7 days when units are added</li>
+                                    <li><strong>Role-Based Access:</strong> Service managers get full control, coordinators update tasks, property managers view-only</li>
+                                    <li><strong>Intelligent Views:</strong> Delay tracking, calendar scheduling, dashboard metrics, and final walk eligibility</li>
+                                    <li><strong>Bulk Import:</strong> Handle 100+ units from spreadsheets with duplicate detection and automatic task assignment</li>
+                                    <li><strong>Dynamic Configuration:</strong> Customize task statuses, roles, and workflows that update across the entire system</li>
+                                </ul>
+                                
+                                <h4>User Experience</h4>
+                                <p>Users simply enter unit details (number, move-out date, expected move-in) and DMRB automatically creates structured task lists, enforces completion rules (Final Walk only after core tasks), and provides real-time readiness percentages. The system prevents fake "ready" status and gives teams confidence in their turnover process.</p>
+                                
+                                <h4>Business Impact</h4>
+                                <p>Reduced apartment turnover time by 46-65% while eliminating spreadsheet errors and improving team coordination. Currently used daily by property management teams across multiple multifamily properties.</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Python Projects -->
+            <div class="project-category">
+                <div class="project-category-header">
+                    <div class="category-icon">🐍</div>
+                    <h3>Python Systems</h3>
+                    <div class="category-line"></div>
+                </div>
+                
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="assets/python-training-board.png" alt="Python Training Board (PTB) - Interactive Learning Environment" loading="lazy">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Python Training Board (PTB) - Interactive Learning Environment</h3>
+                            <p class="project-description">
+                                Designed a hands-on platform using Tkinter and PySide6 for GUI development. 
+                                Built modular demo launchers and experimentation flows to help learners build from theory into real, system-based apps.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Tkinter</span>
+                                <span class="tech-tag">PySide6</span>
+                                <span class="tech-tag">GUI Development</span>
+                            </div>
+                            <div class="project-actions">
+                                <button class="project-btn primary" onclick="openProjectModal(this.closest('.project-card'))">
+                                    <i class="fas fa-info-circle"></i> View Details
+                                </button>
+                                <button class="project-btn secondary" onclick="openScreenshotGallery('Python Training Board')">
+                                    <i class="fas fa-images"></i> View Screenshots
+                                </button>
+                                <button class="project-btn secondary" onclick="window.open('https://github.com/mga210/Official-TBP', '_blank')">
+                                    <i class="fab fa-github"></i> GitHub
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-details" style="display: none;">
+                            <div class="detailed-description">
+                                <h4>🔷 High-Level Overview</h4>
+                                <p>Python Training Board is a self-developed desktop application designed to train and experiment with Python-based GUI development. Its primary purpose is to provide a hands-on, sandbox-style environment where learners can explore, modify, and build interfaces using modern Python GUI frameworks.</p>
+                                
+                                <h4>🔧 Purpose & Use Case</h4>
+                                <ul>
+                                    <li><strong>Skill Development:</strong> Practice and reinforce GUI programming concepts</li>
+                                    <li><strong>Framework Exploration:</strong> Compare and contrast layout behavior and widget logic across supported GUI toolkits</li>
+                                    <li><strong>Safe Experimentation:</strong> Users clone UI templates to freely modify without impacting the original setup</li>
+                                </ul>
+                                
+                                <h4>🧠 Core Concepts</h4>
+                                <ul>
+                                    <li><strong>Sandbox Environment:</strong> Copy → Modify → Break → Fix → Learn</li>
+                                    <li><strong>Zero-Risk Learning:</strong> All components can be duplicated for isolated experimentation</li>
+                                    <li><strong>Toolkit Flexibility:</strong> Supports multiple GUI frameworks</li>
+                                </ul>
+                                
+                                <h4>🗂 Application Structure</h4>
+                                <p><strong>1. Greeting / Authorization Window</strong></p>
+                                <ul>
+                                    <li>Initial landing screen</li>
+                                    <li>Simulates a login/auth flow (can be extended later)</li>
+                                    <li>Closes after access is granted ("clings off")</li>
+                                </ul>
+                                
+                                <p><strong>2. Framework Selection Hub</strong></p>
+                                <ul>
+                                    <li>After authorization, user chooses a GUI framework:</li>
+                                    <li>✅ PySide (Qt for Python)</li>
+                                    <li>✅ Tkinter (Standard Python GUI)</li>
+                                    <li>✅ Advanced UI Concepts (Placeholder for higher-level GUI patterns)</li>
+                                </ul>
+                                
+                                <p><strong>3. Training Interface for Each Toolkit</strong></p>
+                                <p>Each seat (PySide or Tkinter) provides:</p>
+                                <ul>
+                                    <li><strong>📦 Folder Structure Copy Tool:</strong> Clone sample code/folder to experiment</li>
+                                    <li><strong>🧩 UI Component Explorer:</strong> Buttons, labels, sliders, dialogs, layouts, etc. Fully modular code for each widget/component</li>
+                                    <li><strong>✍️ Editable UI Canvas:</strong> Add/move/modify elements. Real-time code reflection. Labeling and annotation support</li>
+                                </ul>
+                                
+                                <h4>🔍 Key Features</h4>
+                                <table style="width: 100%; border-collapse: collapse; margin: 1rem 0;">
+                                    <tr style="border-bottom: 1px solid #ddd;">
+                                        <td style="padding: 8px; font-weight: bold;">Authorization Flow</td>
+                                        <td style="padding: 8px;">Simulates login → unlocks rest of app</td>
+                                    </tr>
+                                    <tr style="border-bottom: 1px solid #ddd;">
+                                        <td style="padding: 8px; font-weight: bold;">Toolkit Selector</td>
+                                        <td style="padding: 8px;">Pick between PySide, Tkinter, or Advanced UI sessions</td>
+                                    </tr>
+                                    <tr style="border-bottom: 1px solid #ddd;">
+                                        <td style="padding: 8px; font-weight: bold;">Folder Copy & Isolate</td>
+                                        <td style="padding: 8px;">Clone a UI folder before editing—preserve original</td>
+                                    </tr>
+                                    <tr style="border-bottom: 1px solid #ddd;">
+                                        <td style="padding: 8px; font-weight: bold;">Live UI Examples</td>
+                                        <td style="padding: 8px;">Shows widget behaviors with minimal runnable examples</td>
+                                    </tr>
+                                    <tr style="border-bottom: 1px solid #ddd;">
+                                        <td style="padding: 8px; font-weight: bold;">Structured Layout Training</td>
+                                        <td style="padding: 8px;">Learn how nesting, resizing, and alignment works in practice</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding: 8px; font-weight: bold;">Code Exploration Mode</td>
+                                        <td style="padding: 8px;">Open individual component scripts for reference and editing</td>
+                                    </tr>
+                                </table>
+                                
+                                <h4>🧱 Developer Stack</h4>
+                                <ul>
+                                    <li><strong>Language:</strong> Python 3.x</li>
+                                    <li><strong>GUI Libraries:</strong>
+                                        <ul>
+                                            <li>PySide6 – for modern, Qt-based UIs</li>
+                                            <li>tkinter – for native, lightweight UI prototyping</li>
+                                        </ul>
+                                    </li>
+                                    <li><strong>Platform:</strong> Desktop (Windows, Linux, macOS)</li>
+                                </ul>
+                                
+                                <h4>🚀 Ideal For</h4>
+                                <ul>
+                                    <li>Beginner to Intermediate Python developers</li>
+                                    <li>Anyone learning GUI programming in Python</li>
+                                    <li>Visual learners who benefit from interactive UI experimentation</li>
+                                </ul>
+                                
+                                <h4>📁 Folder Usage Instructions</h4>
+                                <ol>
+                                    <li>Navigate to your desired GUI framework section</li>
+                                    <li>Use the built-in copy feature to clone the sample folder</li>
+                                    <li>Open the copied folder in your editor of choice</li>
+                                    <li>Add, remove, or modify widgets freely</li>
+                                    <li>Run and observe changes without affecting the original training set</li>
+                                </ol>
+                                
+                                <h4>✅ Future Plans</h4>
+                                <ul>
+                                    <li>Save/load user sessions</li>
+                                    <li>Add drag-and-drop UI designer (visual layer)</li>
+                                    <li>Support for Kivy or wxPython</li>
+                                    <li>Add guided tutorials within each seat</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- GPT Agents -->
+            <div class="project-category">
+                <div class="project-category-header">
+                    <div class="category-icon">🤖</div>
+                    <h3>GPT Agents</h3>
+                    <div class="category-line"></div>
+                </div>
+                
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="assets/system-pilot.png" alt="System Pilot - GPT-Powered Software Architecture Strategist" loading="lazy">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">System Pilot - GPT-Powered Software Architecture Strategist</h3>
+                            <p class="project-description">
+                                Built an AI assistant that converts product ideas into formal system blueprints through guided, logic-mapped dialogue. 
+                                Defined user-facing flows, backend logic, and modular behavior layers. Designed for software architects, product leads, and AI toolmakers.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">GPT-4</span>
+                                <span class="tech-tag">System Architecture</span>
+                                <span class="tech-tag">Logic Mapping</span>
+                                <span class="tech-tag">AI Agents</span>
+                            </div>
+                            <div class="project-actions">
+                                <button class="project-btn primary" onclick="openProjectModal(this.closest('.project-card'))">
+                                    <i class="fas fa-info-circle"></i> View Details
+                                </button>
+                                <button class="project-btn secondary" onclick="window.open('https://chatgpt.com/g/g-6856d43a6a488191a911d252286987e2-systempilot', '_blank')">
+                                    <i class="fas fa-external-link-alt"></i> Live Demo
+                                </button>
+                                <button class="project-btn secondary" onclick="showNotification('Source code available on request!', 'info')">
+                                    <i class="fab fa-github"></i> GitHub
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-details" style="display: none;">
+                            <div class="detailed-description">
+                                <h4>Behavioral Scope Summary</h4>
+                                <p>System Pilot is authorized to operate as a deterministic, step-wise architectural specification engine that transforms software systems into modular, implementation-ready Clean Architecture blueprints through a tightly controlled 3-phase pipeline and a 16-phase Guided Technical Precision Specification (GTPS) framework.</p>
+                                
+                                <h4>Key Capabilities</h4>
+                                <ul>
+                                    <li><strong>Phase-by-phase execution of GTPS 1–16:</strong> Explicitly authorized to output structured specs for each GTPS phase, one at a time</li>
+                                    <li><strong>Structured file tree generation:</strong> Required to validate and annotate a Clean Architecture file structure</li>
+                                    <li><strong>System-wide context acquisition:</strong> Must extract and document system-level properties before file analysis</li>
+                                    <li><strong>Module discovery interrogation:</strong> Mandated to fully understand a module's role, triggers, data scope, and layer position before blueprinting</li>
+                                    <li><strong>Strict output formats:</strong> YAML, JSON, MD formats only — no loose prose</li>
+                                    <li><strong>Developer-ready specs:</strong> All outputs must support direct implementation without ambiguity</li>
+                                    <li><strong>Blocking protocol enforcement:</strong> Must request approval before advancing between phases</li>
+                                </ul>
+                                
+                                <h4>System Limitations</h4>
+                                <ul>
+                                    <li><strong>No phase skipping or merging:</strong> Each GTPS phase must be executed in isolation with approval gates</li>
+                                    <li><strong>No speculative or inferred behavior:</strong> Can only act on what is explicitly defined or extracted via structured questions</li>
+                                    <li><strong>No descriptive or assistant-like behavior:</strong> Must avoid narrative explanations, summaries, or casual language</li>
+                                    <li><strong>Cannot proceed without validations:</strong> File tree and discovery phases are hard dependencies for any GTPS output</li>
+                                    <li><strong>No shared logic between layers:</strong> Architectural purity is enforced — utility or business logic cannot be cross-layer</li>
+                                </ul>
+                                
+                                <h4>Technical Architecture Protocol</h4>
+                                <p>System Pilot operates strictly within a protocol-defined workflow, enforcing Clean Architecture boundaries and producing structured technical outputs. The system must operate through a 3-phase pipeline with explicit approval gates, ensuring precision over assumption and output locked by evidence rather than opinion.</p>
+                                
+                                <h4>Target Audience</h4>
+                                <p>Designed for software architects, product leads, and AI toolmakers who need deterministic, implementation-ready system blueprints with enforced architectural boundaries and structured technical specifications.</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="assets/blueprint-buddy.png" alt="Blueprint Buddy - Modular GPT Instruction Architect" loading="lazy">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Blueprint Buddy - Modular GPT Instruction Architect</h3>
+                            <p class="project-description">
+                                Created a full-scale GPT builder that transforms user intent into logic-rich, exportable instruction sets. 
+                                Operates on a 16-block logic canvas with embedded validation engines and multi-format output. Works with prompt engineering mastery and system logic optimization.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">GPT-4</span>
+                                <span class="tech-tag">Prompt Engineering</span>
+                                <span class="tech-tag">Canvas System</span>
+                                <span class="tech-tag">Validation Logic</span>
+                            </div>
+                            <div class="project-actions">
+                                <button class="project-btn primary" onclick="openProjectModal(this.closest('.project-card'))">
+                                    <i class="fas fa-info-circle"></i> View Details
+                                </button>
+                                <button class="project-btn secondary" onclick="window.open('https://chatgpt.com/g/g-680d564107dc8191bf5b41927912e5df-blueprint-buddy', '_blank')">
+                                    <i class="fas fa-external-link-alt"></i> Live Demo
+                                </button>
+                                <button class="project-btn secondary" onclick="showNotification('Source code available on request!', 'info')">
+                                    <i class="fab fa-github"></i> GitHub
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-details" style="display: none;">
+                            <div class="detailed-description">
+                                <h4>Modular GPT Instruction Architecture</h4>
+                                <p>Blueprint Buddy operates as a full-scale GPT builder that transforms user intent into logic-rich, exportable instruction sets through a sophisticated 16-block logic canvas system with embedded validation engines and multi-format output capabilities.</p>
+                                
+                                <h4>🔧 Core System Capabilities</h4>
+                                <ul>
+                                    <li><strong>16-Block Logic Canvas:</strong> Modular instruction architecture with discrete logic blocks for systematic prompt engineering and validation</li>
+                                    <li><strong>Intent-to-Logic Transformation:</strong> Converts high-level user requirements into structured, implementable GPT instruction sets</li>
+                                    <li><strong>Embedded Validation Engines:</strong> Built-in quality assurance and logic verification systems for instruction consistency</li>
+                                    <li><strong>Multi-Format Export:</strong> Generates instructions in various formats (JSON, YAML, Markdown) for different implementation needs</li>
+                                    <li><strong>Prompt Engineering Mastery:</strong> Advanced prompt optimization techniques with systematic logic flow design</li>
+                                    <li><strong>System Logic Optimization:</strong> Performance tuning and efficiency improvements for GPT instruction execution</li>
+                                </ul>
+                                
+                                <h4>🔧 Technical Architecture</h4>
+                                <ul>
+                                    <li><strong>Canvas-Based Design:</strong> Visual logic mapping with interconnected instruction blocks for complex workflow creation</li>
+                                    <li><strong>Validation Pipeline:</strong> Multi-stage validation process ensuring instruction quality and logical consistency</li>
+                                    <li><strong>Modular Construction:</strong> Reusable instruction components that can be combined for different GPT applications</li>
+                                    <li><strong>Export Flexibility:</strong> Multiple output formats supporting various implementation environments</li>
+                                    <li><strong>Logic Flow Optimization:</strong> Systematic approach to instruction sequencing and conditional logic</li>
+                                </ul>
+                                
+                                <h4>🎯 Use Cases & Applications</h4>
+                                <p>Blueprint Buddy excels in creating sophisticated GPT applications for business automation, educational systems, content generation workflows, and custom AI assistant development. The system supports complex instruction architectures requiring multiple decision trees, validation steps, and output formatting.</p>
+                                
+                                <h4>Target Users</h4>
+                                <p>Designed for prompt engineers, AI system architects, and developers who need to create sophisticated, production-ready GPT applications with complex logic flows and validation requirements. Ideal for teams building scalable AI solutions with structured instruction sets.</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="assets/meta-code-sensei.png" alt="Meta Code Sensei - Python Mentor and Architecture Coach" loading="lazy">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Meta Code Sensei - Python Mentor and Architecture Coach</h3>
+                            <p class="project-description">
+                                Developed a learning agent to guide aspiring developers through full-stack system thinking using Python. 
+                                Built 12-phase scaffolds, project prompt modules, and real-time feedback. Showcases instructional logic and backend design.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">GPT-4</span>
+                                <span class="tech-tag">Learning Systems</span>
+                                <span class="tech-tag">Python Mentoring</span>
+                                <span class="tech-tag">Architecture Coaching</span>
+                            </div>
+                            <div class="project-actions">
+                                <button class="project-btn primary" onclick="openProjectModal(this.closest('.project-card'))">
+                                    <i class="fas fa-info-circle"></i> View Details
+                                </button>
+                                <button class="project-btn secondary" onclick="window.open('https://chatgpt.com/g/g-67ecc53d1854819192a6c8a8bf0d7d4b-metacosensei', '_blank')">
+                                    <i class="fas fa-external-link-alt"></i> Live Demo
+                                </button>
+                                <button class="project-btn secondary" onclick="showNotification('Source code available on request!', 'info')">
+                                    <i class="fab fa-github"></i> GitHub
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-details" style="display: none;">
+                            <div class="detailed-description">
+                                <h4>Behavioral Framework Summary</h4>
+                                <p>Meta Code Sensei operates as a detached, mentor-like AI strictly constrained to materials within an embedded KnowledgeBase. The system simulates a real human mentor embedded in the user's learning arc, teaching incrementally while enforcing correct architectural process (logic before interface) and contextualizing user behavior over time.</p>
+                                
+                                <h4>🔹 Key Capabilities</h4>
+                                <ul>
+                                    <li><strong>Human-like mentoring behavior:</strong> Authorized to act as a patient, embedded guide, simulating real instructor behavior and adapting to user's cognitive load and emotional state</li>
+                                    <li><strong>KnowledgeBase-only reasoning:</strong> All information derives strictly from embedded blueprint files (DMRB Syst.txt, memory.txt, etc.) with no external fact injection</li>
+                                    <li><strong>Clean Architecture enforcement:</strong> Must guide project development strictly in sequence: logic → domain models → domain services → interfaces</li>
+                                    <li><strong>Blueprint-based reasoning:</strong> Interprets and explains code strategy, DTO contracts, architectural intentions, and tradeoffs grounded in project files</li>
+                                    <li><strong>Subsystem delegation:</strong> Authorized to invoke other personas (BlueprintSurgeon, PyPython) when deferring tasks like scaffolding or structural validation</li>
+                                </ul>
+                                
+                                <h4>🔹 System Limitations</h4>
+                                <ul>
+                                    <li><strong>No external knowledge injection:</strong> Cannot supply general Python knowledge or programming advice unless explicitly defined in user materials</li>
+                                    <li><strong>No code generation:</strong> Forbidden from outputting full Python code, even if requested — must teach through reasoning and explanation</li>
+                                    <li><strong>No speculation beyond blueprints:</strong> If information is missing, must clearly state it and work through reasoning or analogy instead</li>
+                                    <li><strong>No generic assistant behavior:</strong> Cannot default to chatbot-like summaries, instructions, or behavior</li>
+                                    <li><strong>Context preservation mandate:</strong> Never resets user's context unless explicitly asked, maintaining learning continuity</li>
+                                </ul>
+                                
+                                <h4>🧭 Teaching Methodology</h4>
+                                <p>Meta Code Sensei operates through structured mentorship protocols, inferring learning speed and mental load from user behavior. The system engages students through reasoning, modeling, and metaphor while avoiding vague generalities. Teaching follows Clean Architecture build order with emotional adaptation based on detected confidence or frustration levels.</p>
+                                
+                                <h4>Target Learners</h4>
+                                <p>Designed for aspiring developers learning full-stack system thinking using Python, with focus on architectural patterns, domain modeling, and structured development processes. Ideal for learners who need guided, incremental instruction with real-time feedback and cognitive load management.</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Work Experience</h2>
+                <p class="section-subtitle">My professional journey and achievements</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <div class="experience-header">
+                                <h3>Service Maintenance Manager</h3>
+                                <span class="company">MAA – Dallas, TX</span>
+                                <span class="duration">Jun 2023 – Present</span>
+                            </div>
+                            <div class="experience-description">
+                                <p>
+                                    Led service operations across 3 multifamily properties while designing and deploying the Make Ready Digital Board (DMRB) — a logic-based AI tool used live to coordinate unit readiness.
+                                </p>
+                                <ul class="experience-achievements">
+                                    <li>Replaced manual spreadsheets with a state-resolved Python system using DTOs, task templates, and lifecycle enforcement</li>
+                                    <li>Built audit-safe, role-scoped task flows with offline queueing, conflict detection, and automatic readiness locking</li>
+                                    <li>Reduced unit turnover time from 13–20 days to 7 through system-led coordination and real-time visibility</li>
+                                    <li>Integrated Python (Pandas, PySide6, FastAPI), SQLite, and Supabase to enable full-stack functionality</li>
+                                    <li>Served as both operational lead and solo developer, field-testing every feature in live conditions</li>
+                                </ul>
+                            </div>
+                            <div class="experience-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">PySide6</span>
+                                <span class="tech-tag">FastAPI</span>
+                                <span class="tech-tag">SQLite</span>
+                                <span class="tech-tag">Supabase</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <div class="experience-header">
+                                <h3>Service Manager</h3>
+                                <span class="company">RPM Living – Dallas, TX</span>
+                                <span class="duration">May 2022 – Jun 2023</span>
+                            </div>
+                            <div class="experience-description">
+                                <p>
+                                    Directed daily service operations at a high-volume multifamily property, overseeing technician workflows, vendor schedules, and turnover timelines.
+                                </p>
+                                <ul class="experience-achievements">
+                                    <li>Built and deployed custom Excel dashboards to reduce admin friction, improve task tracking, and align team focus</li>
+                                    <li>Applied Agile-style planning methods to improve technician coverage and reduce backlog</li>
+                                    <li>Created SOPs and structured vendor workflows to streamline unit turnover</li>
+                                    <li>Introduced team-facing digital tools that improved visibility and coordination</li>
+                                </ul>
+                            </div>
+                            <div class="experience-tech">
+                                <span class="tech-tag">Excel Dashboards</span>
+                                <span class="tech-tag">Agile Planning</span>
+                                <span class="tech-tag">SOP Development</span>
+                                <span class="tech-tag">Digital Tools</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <div class="experience-header">
+                                <h3>Independent Contractor – Residential Renovation</h3>
+                                <span class="company">Via First Choice – Dallas, TX</span>
+                                <span class="duration">Jan 2021 – May 2022</span>
+                            </div>
+                            <div class="experience-description">
+                                <p>
+                                    Managed full-scope renovation projects from planning through delivery, coordinating vendors, timelines, and quality control.
+                                </p>
+                                <ul class="experience-achievements">
+                                    <li>Used digital project management tools to monitor milestones and prevent post-project issues</li>
+                                    <li>Developed preventive protocols and SOPs to reduce callbacks and standardize field execution</li>
+                                    <li>Coordinated complex vendor timelines and quality control processes</li>
+                                </ul>
+                            </div>
+                            <div class="experience-tech">
+                                <span class="tech-tag">Project Management</span>
+                                <span class="tech-tag">Quality Control</span>
+                                <span class="tech-tag">Vendor Coordination</span>
+                                <span class="tech-tag">SOP Development</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <div class="experience-header">
+                                <h3>Independent Contractor – Unit Upgrades</h3>
+                                <span class="company">Via FSI – Dallas, TX</span>
+                                <span class="duration">Feb 2020 – Jan 2021</span>
+                            </div>
+                            <div class="experience-description">
+                                <p>
+                                    Delivered consistent unit upgrade outcomes across multiple multifamily properties.
+                                </p>
+                                <ul class="experience-achievements">
+                                    <li>Created SOPs and mobile-tracked task flows to ensure timeline adherence and coordination clarity</li>
+                                    <li>Identified trade coordination gaps and informed sequencing improvements</li>
+                                    <li>Maintained quality standards across diverse property portfolios</li>
+                                </ul>
+                            </div>
+                            <div class="experience-tech">
+                                <span class="tech-tag">Mobile Tracking</span>
+                                <span class="tech-tag">Task Flow Design</span>
+                                <span class="tech-tag">Process Optimization</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <div class="experience-header">
+                                <h3>Maintenance Technician II</h3>
+                                <span class="company">American Community – Dallas, TX</span>
+                                <span class="duration">Feb 2018 – Feb 2020</span>
+                            </div>
+                            <div class="experience-description">
+                                <p>
+                                    Provided multi-system repair support (HVAC, plumbing, electrical, appliances) for multifamily units.
+                                </p>
+                                <ul class="experience-achievements">
+                                    <li>Supported CMMS platform rollout to streamline service order tracking</li>
+                                    <li>Logged detailed maintenance data to support preventive strategy and cost analysis</li>
+                                    <li>Developed expertise across multiple technical systems and maintenance protocols</li>
+                                </ul>
+                            </div>
+                            <div class="experience-tech">
+                                <span class="tech-tag">CMMS Systems</span>
+                                <span class="tech-tag">Multi-System Repair</span>
+                                <span class="tech-tag">Data Logging</span>
+                                <span class="tech-tag">Preventive Maintenance</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <div class="experience-header">
+                                <h3>Operations Assistant → Kitchen Manager (2 Units)</h3>
+                                <span class="company">Universal Studios – Orlando, FL</span>
+                                <span class="duration">2009 – 2018</span>
+                            </div>
+                            <div class="experience-description">
+                                <p>
+                                    Progressed from operations assistant to leading two full-service kitchens during high-volume park operations.
+                                </p>
+                                <ul class="experience-achievements">
+                                    <li>Participated in engineering launch teams for new venues and attractions</li>
+                                    <li>Led cross-kitchen menu rollout projects, coordinating timing, staff training, and guest flow readiness</li>
+                                    <li>Developed early awareness of system bottlenecks, team handoffs, and operations logic under pressure</li>
+                                    <li>Managed high-volume operations with complex coordination requirements</li>
+                                </ul>
+                            </div>
+                            <div class="experience-tech">
+                                <span class="tech-tag">Operations Management</span>
+                                <span class="tech-tag">Team Leadership</span>
+                                <span class="tech-tag">Process Engineering</span>
+                                <span class="tech-tag">High-Volume Systems</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Professional Endorsements</h2>
+                <p class="section-subtitle">What colleagues and stakeholders say about my work</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "The AI dispatch system transformed our response times completely. What used to take hours of coordination now happens automatically. This is the kind of operational intelligence that changes how teams work."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>Operations Director</h4>
+                                <span>Property Management Company</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "The transition from spreadsheet chaos to structured workflows was seamless. The MakeReady system doesn't just track progress - it predicts bottlenecks and suggests solutions."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>Portfolio Manager</h4>
+                                <span>Property Management Team</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "Having someone who understands both operations and technology is rare. The prompt engineering tools don't just automate tasks - they improve decision quality across the board."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>Cross-functional Lead</h4>
+                                <span>Technology Integration Team</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Achievements & Impact</h2>
+                <p class="section-subtitle">Measurable results and professional recognition</p>
+            </div>
+            <div class="achievements-content">
+                <div class="achievements-grid">
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="achievement-number">65%</div>
+                        <div class="achievement-label">Process Efficiency Improvement</div>
+                        <div class="achievement-description">Average improvement across property management workflows through AI automation</div>
+                    </div>
+                    
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="achievement-number">13→7</div>
+                        <div class="achievement-label">Days Reduced</div>
+                        <div class="achievement-description">Unit turnover time reduction through MakeReady Digital Board implementation</div>
+                    </div>
+                    
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="achievement-number">6+</div>
+                        <div class="achievement-label">AI Projects Deployed</div>
+                        <div class="achievement-description">Production-ready AI systems including System Pilot, Blueprint Buddy, and DMRB</div>
+                    </div>
+                    
+
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                        <div class="achievement-number">40%</div>
+                        <div class="achievement-label">Maintenance Cost Reduction</div>
+                        <div class="achievement-description">Annual maintenance cost savings through strategic vendor management and predictive maintenance scheduling</div>
+                    </div>
+                    
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="achievement-number">4</div>
+                        <div class="achievement-label">Professional Certifications</div>
+                        <div class="achievement-description">Google PM Certificate, Python for Everybody, Python 3 Intermediate, EPA Section 608</div>
+                    </div>
+                    
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="achievement-number">50+</div>
+                        <div class="achievement-label">Team Members Trained</div>
+                        <div class="achievement-description">Staff successfully trained across all operational aspects including digital systems, workflow processes, safety protocols, and team coordination across multiple properties</div>
+                    </div>
+                    
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <div class="achievement-number">Full</div>
+                        <div class="achievement-label">Development Lifecycle</div>
+                        <div class="achievement-description">Complete project management from requirements analysis through deployment, testing, and maintenance</div>
+                    </div>
+                    
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-dollar-sign"></i>
+                        </div>
+                        <div class="achievement-number">$25K</div>
+                        <div class="achievement-label">Annual Cost Savings</div>
+                        <div class="achievement-description">Total operational cost reduction through Excel-to-Python migration and automated reporting systems</div>
+                    </div>
+                </div>
+                
+                <div class="certifications-section">
+                    <h3>Professional Certifications</h3>
+                    <div class="certifications-grid">
+                        <div class="cert-item">
+                            <i class="fab fa-google"></i>
+                            <div class="cert-info">
+                                <h4>Google Project Management Certificate</h4>
+                                <span>Coursera • 2025</span>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fab fa-python"></i>
+                            <div class="cert-info">
+                                <h4>Python for Everybody</h4>
+                                <span>University of Michigan • 2025</span>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-leaf"></i>
+                            <div class="cert-info">
+                                <h4>EPA Section 608 Certification</h4>
+                                <span>Environmental Protection Agency • 2018</span>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fab fa-python"></i>
+                            <div class="cert-info">
+                                <h4>Python 3 - Intermediate Track</h4>
+                                <span>In Progress • 2025</span>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div class="cert-info">
+                                <h4>BBA Computer Information Systems</h4>
+                                <span>Ana G. Méndez University • In Progress</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Services & Solutions</h2>
+                <p class="section-subtitle">How I can help transform your operations</p>
+            </div>
+            <div class="services-content">
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>AI Workflow Engineering</h3>
+                        <p>Design and implement GPT-powered systems that automate complex decision-making processes and streamline operational workflows.</p>
+                        <div class="service-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Custom GPT Agent Development</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Prompt Engineering & Optimization</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Decision Logic Mapping</span>
+                            </div>
+                        </div>
+                        <button class="service-menu-btn" onclick="openServiceModal('ai-workflow')">
+                            <i class="fas fa-list"></i> View Service Menu
+                        </button>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Python Systems Development</h3>
+                        <p>Build robust, modular Python applications with intuitive GUIs that transform complex processes into user-friendly tools.</p>
+                        <div class="service-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>GUI Application Development</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Modular Architecture Design</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>API Integration & Automation</span>
+                            </div>
+                        </div>
+                        <button class="service-menu-btn" onclick="openServiceModal('python-systems')">
+                            <i class="fas fa-list"></i> View Service Menu
+                        </button>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <h3>Operations Intelligence</h3>
+                        <p>Transform operational data into actionable insights through intelligent dashboards and process optimization strategies.</p>
+                        <div class="service-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Power BI Dashboard Creation</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Process Mapping & Optimization</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Performance Metrics & KPI Tracking</span>
+                            </div>
+                        </div>
+                        <button class="service-menu-btn" onclick="openServiceModal('operations-intelligence')">
+                            <i class="fas fa-list"></i> View Service Menu
+                        </button>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3>Data Analysis & Insights</h3>
+                        <p>Extract meaningful patterns from complex datasets and transform raw data into strategic business intelligence for informed decision-making.</p>
+                        <div class="service-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Python Data Processing & Pandas</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Statistical Analysis & Modeling</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Data Visualization & Reporting</span>
+                            </div>
+                        </div>
+                        <button class="service-menu-btn" onclick="openServiceModal('data-analysis')">
+                            <i class="fas fa-list"></i> View Service Menu
+                        </button>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Rapid Web Application Development</h3>
+                        <p>Build and deploy functional web applications quickly using modern frameworks and AI-assisted development for fast prototyping and MVP delivery.</p>
+                        <div class="service-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Replit-Based Rapid Deployment</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Full-Stack Development (Node.js/Express)</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Database Integration & Real-time Features</span>
+                            </div>
+                        </div>
+                        <button class="service-menu-btn" onclick="openServiceModal('rapid-web')">
+                            <i class="fas fa-list"></i> View Service Menu
+                        </button>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-exchange-alt"></i>
+                        </div>
+                        <h3>Legacy System Modernization</h3>
+                        <p>Transform outdated Excel-based processes and manual workflows into intelligent, automated systems that reduce errors and improve team coordination.</p>
+                        <div class="service-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Excel-to-System Migration</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Workflow Automation & Logic Implementation</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check"></i>
+                                <span>Change Management & User Training</span>
+                            </div>
+                        </div>
+                        <button class="service-menu-btn" onclick="openServiceModal('legacy-modernization')">
+                            <i class="fas fa-list"></i> View Service Menu
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="consultation-cta">
+                    <div class="cta-content">
+                        <h3>Ready to Transform Your Operations?</h3>
+                        <p>Let's discuss how AI-powered solutions can streamline your workflows and drive measurable results.</p>
+                        <div class="cta-buttons">
+                            <a href="#contact" class="btn btn-primary">Schedule Consultation</a>
+                            <a href="mailto:mgonzalez869@gmail.com" class="btn btn-secondary">Direct Email</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's discuss your project or just say hello</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <h3>Let's Build Something Together</h3>
+                        <p>
+                            Ready to transform your operational challenges into intelligent solutions? 
+                            I specialize in turning complex workflows into streamlined AI-powered systems.
+                        </p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <span class="contact-label">Email</span>
+                                    <a href="mailto:mgonzalez869@gmail.com" class="contact-value">mgonzalez869@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-item" style="display: none;">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <span class="contact-label">Phone</span>
+                                    <a href="tel:+17873679843" class="contact-value">+1 (787) 367-9843</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <span class="contact-label">Location</span>
+                                    <span class="contact-value">Plano, TX</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-social">
+                            <a href="https://linkedin.com/in/miguel-gonzalez-8a389791" class="social-link" aria-label="LinkedIn" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/mga210" class="social-link" aria-label="GitHub" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="mailto:mgonzalez869@gmail.com" class="social-link" aria-label="Email">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                        
+                        <div class="resume-downloads">
+                            <h4>Download Resume</h4>
+                            <div class="download-buttons">
+                                <a href="/api/resume/download/pdf" class="download-btn pdf-btn" download="Miguel_Gonzalez_Resume.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>PDF Format</span>
+                                </a>
+                                <a href="/api/resume/download/docx" class="download-btn docx-btn" download="Miguel_Gonzalez_Resume.docx">
+                                    <i class="fas fa-file-word"></i>
+                                    <span>Word Format</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contact-form" action="https://formspree.io/f/xnnzbnob" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <!-- Formspree configuration -->
+                        <input type="hidden" name="_subject" value="Portfolio Contact Form - New Message">
+                        <input type="hidden" name="_next" value="#contact">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_format" value="plain">
+                        <!-- Honeypot spam protection -->
+                        <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+                        <button type="submit" class="btn btn-primary">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Miguel A. Gonzalez Almonte. All rights reserved.</p>
+                    <p>Built with HTML, CSS, and JavaScript</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Counter.dev Analytics -->
+    <script src="https://cdn.counter.dev/script.js" data-id="19dfa4e3-c717-41a3-845e-548fdd6d50e5" data-utcoffset="-5"></script>
+
+    <!-- Screenshot Gallery Modal -->
+    <div id="screenshotGallery" class="modal gallery-modal">
+        <div class="modal-content gallery-content">
+            <div class="gallery-header">
+                <h2 id="galleryTitle">Project Screenshots</h2>
+                <button class="close-modal" onclick="closeScreenshotGallery()" aria-label="Close">×</button>
+            </div>
+            <div class="gallery-body">
+                <div class="screenshot-navigation">
+                    <button class="nav-btn prev-btn" onclick="previousScreenshot()" aria-label="Previous">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="screenshot-container">
+                        <div class="screenshot-image-section">
+                            <img id="currentScreenshot" src="" alt="" loading="lazy">
+                        </div>
+                        <div class="screenshot-info-section">
+                            <div class="screenshot-caption">
+                                <h4 id="screenshotTitle"></h4>
+                                <p id="screenshotDescription"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="nav-btn next-btn" onclick="nextScreenshot()" aria-label="Next">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                <div class="screenshot-thumbnails">
+                    <!-- Thumbnails will be inserted dynamically -->
+                </div>
+                <div class="screenshot-counter">
+                    <span id="currentIndex">1</span> / <span id="totalScreenshots">1</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Details Modal -->
+    <div id="projectModal" class="modal-overlay" style="display: none;">
+        <div class="modal-content" role="dialog" aria-labelledby="modal-title" aria-modal="true">
+            <!-- Content will be populated by JavaScript -->
+        </div>
+    </div>
+
+    <!-- Resume Download Modal -->
+    <div id="resumeModal" class="modal-overlay" style="display: none;">
+        <div class="modal-content" role="dialog" aria-labelledby="modal-title" aria-modal="true">
+            <div class="modal-header">
+                <h3 id="modal-title">Choose your format</h3>
+                <button class="modal-close" onclick="closeResumeModal()" aria-label="Close modal">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="format-options">
+                    <label class="format-option">
+                        <input type="radio" name="resumeFormat" value="pdf" checked>
+                        <span class="format-icon">📄</span>
+                        <span class="format-text">PDF</span>
+                    </label>
+                    <label class="format-option">
+                        <input type="radio" name="resumeFormat" value="docx">
+                        <span class="format-icon">📝</span>
+                        <span class="format-text">DOCX</span>
+                    </label>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" onclick="closeResumeModal()">Cancel</button>
+                <button class="btn btn-primary" onclick="downloadSelectedResume()">OK</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Service Menu Modal -->
+    <div id="serviceModal" class="modal-overlay" style="display: none;">
+        <div class="modal-content service-modal-content" role="dialog" aria-labelledby="service-modal-title" aria-modal="true">
+            <!-- Content will be populated by JavaScript -->
+        </div>
+    </div>
+
+    <!-- Chatbot Styles -->
+    <link rel="stylesheet" href="chatbot.css">
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+    <script src="chatbot.js"></script>
+</body>
+</html>
