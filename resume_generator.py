@@ -72,7 +72,7 @@ def create_docx_resume():
     linkedin_p.add_run(" • ")
     add_hyperlink(linkedin_p, "https://mga210.github.io/DevProfile", "Portfolio")
     linkedin_p.add_run(" • ")
-    add_hyperlink(linkedin_p, "https://github.com/mga210", "GitHub")
+    add_hyperlink(linkedin_p, "https://github.com/mgsystemsdev", "GitHub")
     
     doc.add_paragraph()  # Spacing
     

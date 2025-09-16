@@ -387,7 +387,7 @@ All projects are production-deployed and solving real problems, not just demos.`
         
         // Contact information
         if (lowerMessage.includes('contact') || lowerMessage.includes('email') || lowerMessage.includes('reach')) {
-            return "You can reach Miguel at:\n📧 mg.systems.dev@gmail.com\n📍 Based in Plano, TX\n💼 LinkedIn: linkedin.com/in/miguel-gonzalez-8a389791\n🔗 GitHub: github.com/mga210";
+            return "You can reach Miguel at:\n📧 mg.systems.dev@gmail.com\n📍 Based in Plano, TX\n💼 LinkedIn: linkedin.com/in/miguel-gonzalez-8a389791\n🔗 GitHub: github.com/mgsystemsdev";
         }
         
         // Education and learning

@@ -14,7 +14,7 @@ Your GitHub Pages site at https://mga210.github.io/DevProfile/ is serving an old
 6. Wait 2-3 minutes for GitHub Pages to rebuild
 
 ### Option 2: Update directly on GitHub
-1. Go to your repository: https://github.com/mga210/DevProfile
+1. Go to your repository: https://github.com/mgsystemsdev/Miguel-A-Gonzalez-portfolio
 2. Navigate to `index.html`
 3. Click the pencil icon to edit
 4. Find line around 1196 and ensure it contains:

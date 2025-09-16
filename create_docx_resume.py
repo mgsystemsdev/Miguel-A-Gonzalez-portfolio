@@ -99,7 +99,7 @@ def create_docx_resume():
     links.add_run(" • ")
     add_hyperlink(links, "https://mga210.github.io/DevProfile/", "Portfolio")
     links.add_run(" • ")
-    add_hyperlink(links, "https://github.com/mga210", "GitHub")
+    add_hyperlink(links, "https://github.com/mgsystemsdev", "GitHub")
     
     links.paragraph_format.space_after = Pt(12)
     

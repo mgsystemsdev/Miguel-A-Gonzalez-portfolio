@@ -105,7 +105,7 @@ def create_html_resume():
             Plano, TX · 787-367-9843 · mg.systems.dev@gmail.com<br>
             <a href="https://www.linkedin.com/in/miguel-gonzalez-8a389791" style="color: #0563C1; text-decoration: none;">LinkedIn</a> · 
             <a href="https://mga210.github.io/DevProfile/" style="color: #0563C1; text-decoration: none;">Portfolio</a> · 
-            <a href="https://github.com/mga210" style="color: #0563C1; text-decoration: none;">GitHub</a>
+            <a href="https://github.com/mgsystemsdev" style="color: #0563C1; text-decoration: none;">GitHub</a>
         </div>
         <div class="title">AI Systems Builder | GPT-Powered Workflow Architect | Operational Intelligence Technologist</div>
         <p style="margin: 10px 0; font-style: italic;">Bridging field-tested operational insight with code-based systems design. I build logic-driven tools that improve coordination, decision flow, and end-user clarity.</p>

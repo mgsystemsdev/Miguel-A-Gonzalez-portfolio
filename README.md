@@ -27,7 +27,7 @@ Visit the live portfolio: (https://mgsystemsdev.github.io/Miguel-A-Gonzalez-port
 - Email: mg.systems.dev@gmail.com
 - Phone: +1 (787) 367-9843
 - LinkedIn: [miguel-gonzalez-8a389791](https://linkedin.com/in/miguel-gonzalez-8a389791)
-- GitHub: [mga210](https://github.com/mga210)
+- GitHub: [mgsystemsdev](https://github.com/mgsystemsdev)
 
 ---
 
