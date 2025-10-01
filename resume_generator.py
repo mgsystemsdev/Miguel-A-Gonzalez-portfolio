@@ -114,9 +114,9 @@ My portfolio includes production-used agents, dashboards, and Python-based platf
     job1_title.add_run("Service Maintenance Manager — MAA – Dallas, TX").bold = True
     job1_title.add_run("\nJun 2023 – Present")
     
-    job1_desc = doc.add_paragraph("""Led field ops while designing and deploying the Make Ready Digital Board (DMRB) — a production-grade Python system for turnover coordination
+    job1_desc = doc.add_paragraph("""Led field operations across 3 multifamily properties
 
-Eliminated spreadsheets with lifecycle logic, offline queuing, and task validation — reducing unit turnover from 13–20 days to 7 days
+Eliminated spreadsheets with lifecycle logic, offline queuing, and task validation
 
 Delivered full-stack functionality with Python, SQLite, Supabase, and PySide6
 
@@ -319,8 +319,8 @@ def create_pdf_resume():
     
     # Service Maintenance Manager
     story.append(Paragraph("<b>Service Maintenance Manager — MAA – Dallas, TX</b><br/>Jun 2023 – Present", job_title_style))
-    story.append(Paragraph("Led field ops while designing and deploying the Make Ready Digital Board (DMRB) — a production-grade Python system for turnover coordination", normal_style))
-    story.append(Paragraph("Eliminated spreadsheets with lifecycle logic, offline queuing, and task validation — reducing unit turnover from 13–20 days to 7 days", normal_style))
+    story.append(Paragraph("Led field operations across 3 multifamily properties", normal_style))
+    story.append(Paragraph("Eliminated spreadsheets with lifecycle logic, offline queuing, and task validation", normal_style))
     story.append(Paragraph("Delivered full-stack functionality with Python, SQLite, Supabase, and PySide6", normal_style))
     story.append(Paragraph("Acted as both systems architect and end user — field-testing every feature in production", normal_style))
     

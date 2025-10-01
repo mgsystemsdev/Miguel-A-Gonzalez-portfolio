@@ -176,10 +176,9 @@ Now seeking roles where I can continue designing agent-powered workflows, intern
     
     # Job 1
     add_job_entry(doc, "Service Maintenance Manager", "MAA – Dallas, TX", "Jun 2023 – Present", [
-        "Led service operations across 3 multifamily properties while designing and deploying the Make Ready Digital Board (DMRB) — a logic-based AI tool used live to coordinate unit readiness",
+        "Led service operations across 3 multifamily properties",
         "Replaced manual spreadsheets with a state-resolved Python system using DTOs, task templates, and lifecycle enforcement",
         "Built audit-safe, role-scoped task flows with offline queueing, conflict detection, and automatic readiness locking",
-        "Reduced unit turnover time from 13–20 days to 7 through system-led coordination and real-time visibility",
         "Integrated Python (Pandas, PySide6, FastAPI), SQLite, and Supabase to enable full-stack functionality"
     ])
     

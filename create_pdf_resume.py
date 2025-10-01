@@ -184,11 +184,10 @@ def create_html_resume():
             <span class="date">Jun 2023 – Present</span><br>
             <span class="company">MAA – Dallas, TX</span>
         </div>
-        <p>Led service operations across 3 multifamily properties while designing and deploying the Make Ready Digital Board (DMRB) — a logic-based AI tool used live to coordinate unit readiness</p>
+        <p>Led service operations across 3 multifamily properties</p>
         <ul>
             <li>Replaced manual spreadsheets with a state-resolved Python system using DTOs, task templates, and lifecycle enforcement</li>
             <li>Built audit-safe, role-scoped task flows with offline queueing, conflict detection, and automatic readiness locking</li>
-            <li>Reduced unit turnover time from 13–20 days to 7 through system-led coordination and real-time visibility</li>
             <li>Integrated Python (Pandas, PySide6, FastAPI), SQLite, and Supabase to enable full-stack functionality</li>
         </ul>
 
